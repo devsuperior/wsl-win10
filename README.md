@@ -23,20 +23,20 @@ cd /mnt/c
 ls
 ```
 
-## 5) Instalar NodeJS
+## 5) Instalar extensão Remote WSL no VS Code
+
+Depois abra uma pasta no VS Code pelo terminal Linux
+```bash
+code .
+```
+
+## 6) Instalar NodeJS
 ```bash
 sudo apt update
 sudo apt upgrade
 sudo apt install -y curl
 curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt install -y nodejs
-```
-
-## 6) Instalar extensão Remote WSL no VS Code
-
-Depois abra uma pasta no VS Code pelo terminal Linux
-```bash
-code .
 ```
 
 ## 7) Instalar JDK
