@@ -38,3 +38,37 @@ Depois abra uma pasta no VS Code pelo terminal Linux
 ```bash
 code .
 ```
+
+## 7) Instalar JDK
+```bash
+sudo apt install openjdk-11-jdk
+```
+Confira a versão e a localidade da instalação
+```bash
+java -version
+sudo update-alternatives --config java
+```
+
+Depois edite o arquivo ~/.bashrc
+```bash
+code ~/.bashrc
+```
+Inclua no final do arquivo:
+```
+JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export JAVA_HOME
+export PATH=$PATH:$JAVA_HOME
+```
+Abra um novo terminal e confira a variável de ambiente
+```
+echo $JAVA_HOME
+```
+
+## 8) Instalar o Maven
+```bash
+sudo apt install mvn
+```
+Confira a instalação
+```bash
+mvn -v
+```
