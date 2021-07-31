@@ -1,4 +1,4 @@
-# Instalar Linux no Windows 10 com WSL + NodeJS
+# Instalar Linux no Windows 10 com WSL + NodeJS + JDK
 
 ## 1) Instalar o WSL
 
