@@ -2,7 +2,7 @@
 
 ## 1) Instalar o WSL
 
-https://docs.microsoft.com/pt-br/windows/wsl/install-win10
+https://docs.microsoft.com/pt-br/windows/wsl/install-manual
 
 ## 2) Instalar Ubuntu
 
