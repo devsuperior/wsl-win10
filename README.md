@@ -31,11 +31,13 @@ code .
 ```
 
 ## 6) Instalar NodeJS
+**Atenção: favor instalar a versão 14 do Node, conforme comando abaixo**
+
 ```bash
 sudo apt update
 sudo apt upgrade
 sudo apt install -y curl
-curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 
