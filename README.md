@@ -31,8 +31,3 @@ Depois abra uma pasta no VS Code pelo terminal Linux
 ```bash
 code .
 ```
-## Ferramentas de desenvolvimento
-
-Para instalar NodeJS, Java, etc., siga este link:
-
-https://github.com/devsuperior/fdm-ambiente/blob/main/instalacao/LINUX.md
